@@ -1,0 +1,110 @@
+body {
+	background-color: #212D40;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+h1 {
+	color: #FFFFFF;
+}
+
+h2 {
+	color: #FFFFFF;
+}
+
+a {
+	color: #D1603D;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #11151C;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+.topnav a {
+  float: left;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topNav a:hover:not(.active) {
+	background-color: #C5FFFD;
+	color: #D1603D;
+}
+
+.topNav a.active {
+	background-color: #D1603D;
+	color: #C5FFFD;
+}
+
+section {
+	text-align: center;
+	margin: 30px;
+}
+
+.images img:hover {
+	transform: scale(5);
+}
+
+.split-left {
+	float: left;
+	text-align: center;
+	padding: 10px;
+	font-size: 20px;
+	margin: 10px;
+	width: 30%;
+}
+
+.links {
+	float: left;
+	text-align: center;
+	padding: 10px;
+	font-size: 20px;
+	margin: 10px;
+	width: 30%;
+}
+
+.scripts {
+	float: left;
+	text-align: center;
+	padding: 10px;
+	font-size: 20px;
+	margin: 10px;
+	width: 30%;
+}
+.split-right::after {
+	clear: both;
+}
+
+.below {
+	float: left;
+	display: inline-block;
+	text-align: center;
+	bottom: 16;
+	position: fixed;
+	width: 100%;
+}
+
+footer {
+  	overflow: hidden;
+  	background-color: #11151C;	
+ 	color: #FFFFFF;
+  	text-align: center;
+  	padding: 14px 16px;
+  	text-decoration: none;
+  	font-size: 17px;
+  	position: fixed;
+   	left: 0;
+   	bottom: 0;
+   	width: 100%;
+}
+
+canvas {
+    display: block;
+}
